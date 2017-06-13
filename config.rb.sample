@@ -1,0 +1,15 @@
+# Size of the cluster
+$instances = 3
+
+# Base name of the VM
+# Example: "zk-01", "zk-02", "zk-${instances}"
+$instance_name_prefix="zk"
+
+# VM
+$vm_memory = 1024
+$vm_cpus = 1
+$vm_cpuexecutioncap = 50
+
+# Port forwarding from guest(s) to host machine
+# Format: { 80 => 8080, ... }
+#$forwarded_ports = {}
