@@ -3,7 +3,7 @@ $instances = 3
 
 # Base name of the VM
 # Example: "zk-01", "zk-02", "zk-${instances}"
-$instance_name_prefix="zk"
+$instance_name_prefix = "zk"
 
 # VM
 $vm_memory = 1024
